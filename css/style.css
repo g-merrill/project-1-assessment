@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14vmin;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vmin;
+}
+h1 {
+    text-align: center;
+    font-size: 150%;
+}
+#result.negative {
+    color: red;
+}
+.operation-container {
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    align-items: center;
+}
+.operation-btn {
+    height: 100%;
+    width: 10%;
+    background-color: darkgray;
+    border-radius: 3vmin;
+    color: white;
+}
+.operation-btn:hover {
+    background-color: white;
+    color: darkgray;
+}
+.input {
+    border: 1vmin solid darkgray;
+    border-radius: 3vmin;
+    margin: 0 3%;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
